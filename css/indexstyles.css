@@ -3,6 +3,7 @@
 
 .elephant {
 width: 25%;
+display: block;
   margin-top: auto;
     border-radius: 0; 
   border-top-left-radius: 50px;
@@ -29,7 +30,7 @@ width: 25%;
   color:#401d5f; 
     font-family:"Rainy Wind";
     margin: 0 0 15px 730px;
-    text-align: right;
+    text-align: center;
     text-shadow: 0 3px 2px rgba(0,0,0, .9);
 
 }
