@@ -20,6 +20,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#705f87', end
 }
 
 
+}
+
 h1 {
   color: black; 
   font-size: 3.3em;
@@ -57,9 +59,9 @@ h2:last-of-type {
   color:#ffefdb;
 }
 
-li {
-  font-size: 1em;
-  color: #black;
+ul li {
+  font-size: 1.5em;
+  color: black;
   font-style: verdana;
   letter-spacing: 2px;
 margin: 10px;
@@ -73,7 +75,7 @@ img {
     border-top-right-radius: 10px;
   border-bottom-right-radius: 50px;
   border-bottom-left-radius: 10px;
-  
+
 
 
 }
