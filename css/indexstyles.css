@@ -1,28 +1,49 @@
 
-* {
-  box-sizing: border-box;
+
+
+.elephant {
+width: 25%;
+  margin-top: auto;
+    border-radius: 0; 
+  border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  background-color: #eadcca;
+
+
 }
 
 .primary-content {
-  border-top: 10px solid #dfe2e6;
-  border-bottom: 2px solid #dfe2e6;
-  
+
+  border-top: 10px solid #ab9a83;
+  border-bottom: 10px solid #ab9a83;
+  background-color: #eadcca;
+
+ 
 }
 
   .title {
-  font-size: 2.5em;
+  font-size: 2.8em;
   font-style: bold;
   color:#401d5f; 
     font-family:"Rainy Wind";
-    margin: 0 0 15px 730px
+    margin: 0 0 15px 730px;
+    text-align: right;
+    text-shadow: 0 3px 2px rgba(0,0,0, .9);
 
 }
 
-ul {
+ul li {
   font-size: 1.2em;
   font-style: italic;
-  font-weigt: 
-   ;
+  font-weight: bold;
+  color: black;
+  text-align: left;
+ 
+
+
+
   
 
 }
@@ -32,13 +53,16 @@ ul {
   font: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #878787;
   margin: 0 0 0 10px;
-  
-    background-color: #006699;
- background: linear-gradient(#ffccff, #663366, transparent 200%);
+  background-color: #ffefdb;
+}
+body {
+  background-color: #eadcca;
 }
 
 h1 { 
-  font-size: 2rem;
+  font-size: 1.3rem;
+  margin: 15px 0 0 25px;
+  text-align: center;
 }
 
   h2 {
@@ -50,6 +74,7 @@ h1 {
     margin: 0 0 15px 45px;
     text-decoration:underline;
 
+
 }
 
    p {
@@ -57,20 +82,13 @@ h1 {
       font-weight: normal;
       line-height: 1.1;
       margin: 0 0 35px 50px;
+      color: black;
 
 }
 
-a:link {
-  text-decoration: bold;
-  font-size: 20px;
-  color: #4e256b;
-  
-  padding: 0 9px 3px 9px;
-  display: inline-block;
-  
-}
 
-}
+
+
 /*Nav section*/
 nav a:link {
   color: #401d5f;
@@ -92,3 +110,22 @@ nav a:hover {
  nav a:active: {
   background: #D4A29B;
  }
+
+nav li {
+display: inline-block;
+margin: 20px 0 0 50px;
+
+
+}
+
+a:link {
+  text-decoration: bold;
+  font-size: 20px;
+  color: #4e256b;
+  
+  padding: 0 9px 3px 9px;
+  display: inline-block;
+  text-align: right;
+  
+}
+
