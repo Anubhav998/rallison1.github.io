@@ -1,0 +1,62 @@
+/*Global*/
+
+/*Nav section*/
+
+/*Bio*/
+
+
+body{
+  background: linear-gradient(#ffccff, #663366, transparent 200%);
+}
+
+
+h1 {
+  color: #663399; 
+  font-size: 4em;
+  font-style: verdana;
+  border-top: thick double darkslategrey;
+  text-decoration: underline;
+}
+
+p {
+  font-size: 1em;
+  color: #3E3E4D;
+  text-indent: 55px;
+
+}
+h2 {
+  color: #CC99ff;
+  font-style: bold;
+  font-size: 2em;
+  text-indent: 20px;
+
+}
+h2:nth-child(2) {
+  color: #663366;
+  
+}
+h3 {
+  color: #9933ff;
+  font-size: 2em;
+  
+}
+h3:last-of-type {
+  color:#993399;
+}
+
+li {
+  font-size: 1em;
+  color: #3E3E4D;
+  font-style: verdana;
+
+}
+
+img {
+  width: 20%;
+  margin: 50px 20px 0px 20px;
+  border-radius: 15px;
+  border-top-left-radius: 50px;
+    border-top-right-radius: 10px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 10px;
+}
