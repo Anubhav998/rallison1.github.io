@@ -15,17 +15,17 @@ background: -o-linear-gradient(top,  #705f87 23%,#705f87 23%,#40344a 100%); /* O
 background: -ms-linear-gradient(top,  #705f87 23%,#705f87 23%,#40344a 100%); /* IE10+ */
 background: linear-gradient(to bottom,  #705f87 23%,#705f87 23%,#40344a 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#705f87', endColorstr='#40344a',GradientType=0 ); /* IE6-9 */
-
-
-}
-
+border-top: 10px solid black;
 
 }
+
+
+
 
 h1 {
   color: black; 
   font-size: 3.3em;
-  font-family:"Rainy Wind";
+  font-family:'lobster' sans-serif;
   border-top: thick double black;
   text-align: center;
   text-shadow: 0 1px 1px rgba(0,0,0, .5);
@@ -36,6 +36,7 @@ p {
   font-size: 1.5em;
   color: black;
   text-align: center;
+  border-bottom: 5px solid black;
 
 }
 h2 {
@@ -64,22 +65,35 @@ ul li {
   color: black;
   font-style: verdana;
   letter-spacing: 2px;
-margin: 10px;
+  margin: 10px;
+
+}
+h3 {
+  color: #ffefdb;
+  font-size: 1.5em;
+
 }
 
 img {
   width: 20%;
-  margin: 50px 20px 0px 20px;
+  margin: 10px 20px -300px 860px;
   border-radius: 15px;
-  border-top-left-radius: 50px;
-    border-top-right-radius: 10px;
-  border-bottom-right-radius: 50px;
-  border-bottom-left-radius: 10px;
-
-
-
+  box-shadow: 50px;
+  
 }
 
+ .main-header {
+ background-color: #ffa949;
+  padding-top: 170px;
+  height: 350px;
+  background-image: url('../img/coverpic.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: auto;
+
+
+ }
 /*Nav section*/
 nav a:link {
   color: #401d5f;

@@ -10,27 +10,27 @@ display: block;
     border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
   border-bottom-left-radius: 50px;
-  background-color: #eadcca;
+  
 
 
 }
 
 .primary-content {
 
-  border-top: 10px solid #ab9a83;
-  border-bottom: 10px solid #ab9a83;
-  background-color: #eadcca;
+  border-top: 10px solid black;
+ 
+  background-color: white;
 
  
 }
 
   .title {
-  font-size: 2.8em;
+  font-size: 4em;
   font-style: bold;
   color:#401d5f; 
-    font-family:"Rainy Wind";
-    margin: 0 0 15px 730px;
-    text-align: center;
+    font-family:'lobster' sans-serif;
+    margin: 0 auto 0px 900px;
+    text-align: right;
     text-shadow: 0 3px 2px rgba(0,0,0, .9);
 
 }
@@ -54,10 +54,18 @@ ul li {
   font: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #878787;
   margin: 0 0 0 10px;
-  background-color: #ffefdb;
+  background-color: white;
+
 }
 body {
-  background-color: #eadcca;
+  background-color: white;
+
+}
+
+html {
+    border-top: 10px solid #05060B;
+  border-bottom: 10px solid #05060B;
+}
 }
 
 h1 { 
