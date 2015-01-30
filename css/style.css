@@ -6,16 +6,9 @@
 
 
 body{
-  background: linear-gradient(#ffccff, #461455);
-  background: #705f87; /* Old browsers */
-background: -moz-linear-gradient(top,  #705f87 23%, #705f87 23%, #40344a 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(23%,#705f87), color-stop(23%,#705f87), color-stop(100%,#40344a)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  #705f87 23%,#705f87 23%,#40344a 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  #705f87 23%,#705f87 23%,#40344a 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  #705f87 23%,#705f87 23%,#40344a 100%); /* IE10+ */
-background: linear-gradient(to bottom,  #705f87 23%,#705f87 23%,#40344a 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#705f87', endColorstr='#40344a',GradientType=0 ); /* IE6-9 */
-border-top: 10px solid black;
+  background: linear-gradient(#ffeacb, #e2d0ce);
+  background: #FFF5E8;
+  border-top: 10px solid black;
 
 }
 
@@ -45,7 +38,7 @@ h2 {
   color: black;
   font-style: bold;
   font-size: 1.5em;
-  text-indent: 20px;
+  text-align: center;
   text-decoration: underline;
 
 }
@@ -54,26 +47,31 @@ h2:nth-child(2) {
   
 }
 h2 {
-  color: #ffefdb;
+  color: #887D85;
   font-size: 1.5em;
   
 }
 h2:last-of-type {
-  color:#ffefdb;
+  color:#887D85;
 }
 
-ul li {
+dl li {
   font-size: 1.5em;
   color: black;
   font-style: verdana;
   letter-spacing: 2px;
-  margin: 10px;
+  text-align: center;
 
 }
 h3 {
-  color: #ffefdb;
+  color: #887D85;
   font-size: 1.5em;
+  text-align: center;
 
+}
+h4 {
+ font-size: 1.5em;
+ text-align: center;
 }
 
 .profilepic {
