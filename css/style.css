@@ -148,7 +148,7 @@ section {
  
 /* Set Your Own Margin & Padding */
 .style-tile h2, .style-tile h3, .style-tile p {
-  margin: 0;
+  margin: auto;
 }
  
 /* Clearfix - Oo Not Remove */
@@ -157,14 +157,62 @@ section {
 /*color pallette*/
 
 .style-tile .color-1 {
-background: red;
+background: lavender;
 
 }
 
 .style-tile .color-2 {
-background: blue;
+background: darkgrey;
 }
 
+.style-tile .color-3 {
+background: #C1AFEB;
+}
+
+.pattern-1 {
+
+  background: url("../img/symphony.png");
+}
+
+.pattern-2 {
+
+  background: url("../img/feathers.png");
+}
+
+.pattern-3 {
+
+  background: url("../img/swirl.png");
+}
 body.style-tile {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.container h2 {
+font-family: 'Old Standard TT', serif;
+font-size: 3em;
+font-color: darkgrey;
+
+}
+
+.container h3 {
+font-family: 'Old Standard TT', serif;
+font-size: 2em;
+font-color: darkgrey;
+text-align: center;
+
+}
+
+.container p {
+font-family: 'Josefin Sans', sans-serif;
+font-size: 1.8em;
+text-align: center;
+
+}
+
+.container em {
+
+  font-size: 1.3em;
+  font-family: 'Old Standard TT', serif;
+}
+.container {
+  background-color: lavender; 
 }
