@@ -1,18 +1,45 @@
+/*
+
+**** NOTES *****
+Background images: background: url(../img/filename.jpg);
+
+
+
+*/
+
+
 /*Global*/
 
 /*Nav section*/
+
+/*Home*/
+
+.home h1 {
+
+}
+
+.home img {
+
+}
 
 /*Bio*/
 
 
 body.style-tile {
   background: linear-gradient(#ffeacb, #e2d0ce);
-  background: #FFF5E8;
   border-top: 10px solid black;
+  background: url(../img/symphony.png);
 
 }
 
-
+.container {
+  background: lavender;
+  height: 90vh;
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 50px;
+}
 
 
 h1 {
@@ -24,6 +51,7 @@ h1 {
   text-shadow: 0 2px 5px rgba(0,0,0, .5);
   
 }
+
 
 p {
   font-size: 1.5em;
@@ -186,27 +214,36 @@ background: #C1AFEB;
 body.style-tile {
   font-family: 'Josefin Sans', sans-serif;
 }
-.container h2 {
+
+.style-tile h1 {
+  font-family: 'Old Standard TT', serif;
+}
+
+.style-tile h2 {
 font-family: 'Old Standard TT', serif;
 font-size: 3em;
 font-color: darkgrey;
+padding-top: 1em;
 
 }
 
-.container h3 {
+.style-tile h3 {
 font-family: 'Old Standard TT', serif;
 font-size: 2em;
 font-color: darkgrey;
-text-align: center;
+text-align: center;   
+padding-top: 1em;
 
 }
 
-.container p {
+.style-tile p {
 font-family: 'Josefin Sans', sans-serif;
 font-size: 1.8em;
 text-align: center;
+padding: 1em 0 1em 0;
 
 }
+
 
 .container em {
 
@@ -214,5 +251,5 @@ text-align: center;
   font-family: 'Old Standard TT', serif;
 }
 .container {
-  background-color: lavender; 
+
 }
