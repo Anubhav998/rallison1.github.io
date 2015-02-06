@@ -34,8 +34,8 @@ body.style-tile {
 
 .container {
   background: lavender;
-  height: 90vh;
-  width: 70%;
+  height: 97vh;
+  width: 80%;
   display: block;
   margin: 0 auto;
   border-radius: 50px;
@@ -216,14 +216,14 @@ body.style-tile {
 }
 
 .style-tile h1 {
-  font-family: 'Old Standard TT', serif;
+  font-family: 'lobster', serif;
 }
 
 .style-tile h2 {
 font-family: 'Old Standard TT', serif;
 font-size: 3em;
 font-color: darkgrey;
-padding-top: 1em;
+padding-top: 0em;
 
 }
 
