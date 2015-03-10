@@ -1,15 +1,7 @@
 
 
 
-.elephant {
-width: 25%;
-display: block;
-  margin-top: auto;
-    border-radius: 0; 
-  border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-  border-bottom-right-radius: 50px;
-  border-bottom-left-radius: 50px;
+
   
 
 
@@ -17,7 +9,7 @@ display: block;
 
 .primary-content {
 
-  border-top: 10px solid black;
+  border-top: 5px solid black;
  
   background-color: white;
 
@@ -25,13 +17,13 @@ display: block;
 }
 
   .title {
-  font-size: 4em;
+  font-size: 3em;
   font-style: bold;
-  color:#401d5f; 
-    font-family:'lobster' sans-serif;
-    margin: 0 auto 0px 900px;
-    text-align: right;
-    text-shadow: 0 3px 2px rgba(0,0,0, .9);
+  color:black; 
+  font-family: 'lobster', serif;
+    margin: auto;
+    text-align: left;
+    text-shadow: 0 1px 1px rgba(0,0,0, .9);
 
 }
 
@@ -39,7 +31,7 @@ ul li {
   font-size: 1.2em;
   font-style: italic;
   font-weight: bold;
-  color: black;
+  color: darkgrey;
   text-align: left;
  
 
@@ -55,21 +47,23 @@ ul li {
   color: #878787;
   margin: 0 0 0 10px;
   background-color: white;
+  font-family: 'Josefin Sans', sans-serif;
 
 }
 body {
-  background-color: white;
+   background: url("../img/symphony.png");
 
 }
 
 html {
-    border-top: 10px solid #05060B;
-  border-bottom: 10px solid #05060B;
+  margin-bottom: 0 auto ;
+    border-top: 3px solid #05060B;
+  border-bottom: 3px solid #05060B;
 }
 }
 
 h1 { 
-  font-size: 1.3rem;
+  font-size: 1rem;
   margin: 15px 0 0 25px;
   text-align: center;
 }
@@ -106,7 +100,7 @@ nav a:link {
 
 nav a:visited {
   
-  color: #6ec1b0;
+  color: #C1AFEB;
 }
 nav a:focus {
   background: #5299bc;
