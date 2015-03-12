@@ -14,6 +14,11 @@ Background images: background: url(../img/filename.jpg);
 
 /*Home*/
 
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .home h1 {
   font-size: 1em;
 
@@ -107,9 +112,10 @@ h4 {
 
 .profilepic {
   width: 20%;
-  margin: -2px 410px 80px;
+  display:block;
+  margin: 0 auto;
   float: center;
-  border-radius: 100px;
+  border-radius: 6.25em;
   box-shadow: inset 0 0 50px 10px rgba(0,0,0, 1);
     -webkit-filter: grayscale(100%); filter: grayscale(100%);}
 
@@ -117,8 +123,8 @@ h4 {
 
 .name {
   float: center;
-  margin: -100px 0 auto;
-  font-size: 8em;
+  margin: -10% auto 0 auto;
+  font-size: 6em;
 }
 
  .main-header {
@@ -259,3 +265,139 @@ padding: 1em 0 1em 0;
 .container {
 
 }
+
+.aboutme {
+  width: 80%;
+  display: block;
+  margin: 1em auto 2em auto;
+  font-size: 1.2em;
+  border: none;
+}
+
+.section {
+  margin: 2% 5% ;
+  width: 40%;
+  display: inline-block;
+  float: left;
+ }
+
+.details {
+  border-left: 1px solid #000;
+  
+
+}
+
+ .details dl li {
+  list-style: none;
+  text-align: left;
+  padding-left: 1em;
+  margin: .5em 0;
+
+ }
+
+ .details {
+  list-style: none;
+  text-align: left;
+  padding-left: 1em;
+  margin: .5em 0;
+
+ }
+
+.bio h2 {
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  float: left;
+
+}
+
+/* navigation*/
+/*Nav section*/
+nav a:link {
+  color: #C1AFEB;
+  text-decoration: underline;
+}
+
+nav a:visited {
+  
+  color: #C1AFEB;
+}
+nav a:focus {
+  background: #5299bc;
+}
+
+nav a:hover {
+  color: #b8e5c6;
+}
+
+ nav a:active: {
+  background: #D4A29B;
+ }
+
+nav li {
+display: inline-block;
+margin: 20px 0 0 50px;
+
+
+}
+
+a:link {
+  text-decoration: bold;
+  font-size: 20px;
+  color: #4e256b;
+  
+  padding: 0 9px 3px 9px;
+  display: inline-block;
+  text-align: right;
+  
+}
+
+/*light boxes*/
+
+
+
+/*tablet 768px*/
+
+@media screen and (max-width: 768px) {
+
+  .section {
+    width: 90%;
+    display: inline-block;
+    float: left;
+   }
+
+  
+}
+
+
+/*phone 480*/
+
+@media screen and (max-width: 480px) {
+  nav li {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+   }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
