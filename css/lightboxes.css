@@ -44,13 +44,16 @@ dd a p {
   width: 60%;
   display: block;
   margin: 0 auto;
+  font-size:1em;
+  text-decoration: none;
 
 }
 dd a h1 {
   width: 60%;
   display: block;
   margin: 0 auto;
-  
+  font-size: 1.5em;
+  text-decoration: none;
   
 }
 
@@ -83,3 +86,16 @@ body:target dl dd {
   background: rgba(0,0,0,0); 
   transition: 1.5s background ease-out; 
 }
+
+.one,
+.two,
+.three {
+  max-width: 1200px;
+  border-top: 2px dotted black;
+  border-right:2px dotted black;
+  border-left:2px dotted black;
+  border-bottom:2px dotted black;
+}
+
+
+
