@@ -20,7 +20,7 @@
   font-size: 3em;
   font-style: bold;
   color:black; 
-  font-family: 'lobster', serif;
+  font-family: 'Oxygen', sans-serif;
     margin: 0 10px;
     text-align: right;
     text-shadow: 0 1px 1px rgba(0,0,0, .9);
@@ -55,7 +55,7 @@ ul li {
 
 }
 body {
-   background: url("../img/symphony.png");
+   background:white;
 
 }
 
