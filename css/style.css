@@ -92,7 +92,7 @@ h2:last-of-type {
 }
 
 dl li {
-  font-size: 1.5em;
+  font-size: 1em;
   color: black;
   font-style: verdana;
   letter-spacing: 2px;
@@ -122,9 +122,9 @@ h4 {
   
 
 .name {
-  float: center;
+  float: left;
   margin: -10% auto 0 auto;
-  font-size: 3em;
+  font-size: 1.5em;
 }
 
  .main-header {
@@ -338,6 +338,7 @@ nav a:hover {
 nav li {
 display: inline-block;
 margin: 20px 0 0 50px;
+
 
 
 }

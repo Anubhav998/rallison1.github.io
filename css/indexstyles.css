@@ -1,4 +1,16 @@
-
+.main-header {
+ background-color:#65C8D0;
+  padding-top: 170px;
+  height: 10px;
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: auto;
+  border-bottom: dashed grey .4em;
+  border-top: dashed grey .4em;
+  
+ }
 
 
 
@@ -53,11 +65,11 @@ ul li {
   background-color: white;
   font-family: 'Josefin Sans', sans-serif;
 
-}
-body {
-   background:white;
 
 }
+.home { 
+  background-image: url("images/leaves.png") top right no-repeat; 
+background-attachment:fixed; }
 
 html {
   max-width: 1200px;
@@ -73,7 +85,7 @@ h1 {
 }
 
   h2 {
-   font-size: 1.5rem;
+   font-size: 1rem;
     color: almostblack;
     text-transform: uppercase;
     font-weight: normal;
@@ -86,7 +98,7 @@ h1 {
 }
 
    p {
-      font-size: 1.4em;
+      font-size: .8em;
       font-weight: normal;
       line-height: 1.1;
       margin: 0 0 35px 50px;
