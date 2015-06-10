@@ -14,9 +14,13 @@ Background images: background: url(../img/filename.jpg);
 
 /*Home*/
 
+section {
+  background: white;
+}
 body {
   max-width: 1200px;
   margin: 0 auto;
+  background-image:url(../img/leaves.png);
 }
 
 .home h1 {
@@ -24,13 +28,13 @@ body {
 
 }
 
-.home img {
+.home  
 
-}
 
 /*Bio*/
 body.bio {
-  background: white;
+  
+  background-image:url(../img/leaves.png);
 
 }
 
@@ -48,11 +52,12 @@ body.style-tile {
   display: block;
   margin: 0 auto;
   border-radius: 50px;
+
 }
 
 
 h1 {
-  color: black; 
+  color: white; 
   font-size: 1em;
   font-family: 'Oxygen', sans-serif;
   
@@ -71,7 +76,7 @@ p {
 
 }
 h2 {
-  color: black;
+  color: white;
   font-style: bold;
   font-size: 1em;
   text-align: center;
@@ -79,21 +84,21 @@ h2 {
 
 }
 h2:nth-child(2) {
-  color: #663366;
+  color: black;
   
 }
 h2 {
-  color: #887D85;
+  color: black;
   font-size: 1em;
   
 }
 h2:last-of-type {
-  color:#887D85;
+  color:black;
 }
 
 dl li {
   font-size: 1em;
-  color: black;
+  color: white;
   font-style: verdana;
   letter-spacing: 2px;
   text-align: center;
@@ -128,7 +133,7 @@ h4 {
 }
 
  .main-header {
- background-color:#65C8D0;
+ background-color:opaque;
   padding-top: 170px;
   height: 10px;
   
@@ -136,8 +141,7 @@ h4 {
   background-repeat: no-repeat;
   background-position: center;
   margin: auto;
-  border-bottom: dashed grey .4em;
-  border-top: dashed grey .4em;
+  
   
  }
 /*Nav section*/
